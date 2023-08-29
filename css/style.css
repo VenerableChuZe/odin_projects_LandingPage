@@ -1,10 +1,39 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
-    height: 60px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-nav{
-    
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav ul li{
+    padding-right: 30px;
+    list-style: none;
+    font-weight: 500;
+}
+
+#welcome{
+    display: flex;
+    justify-content: space-around;
+}
+
+.welcome-img{
+    border: 2px solid black;
+    width: 700px;
+    height: 150px;
+}
+
+header,
+#welcome{
+    background-color: #1f2937;
+    color: white;
 }
