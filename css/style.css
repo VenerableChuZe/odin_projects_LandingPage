@@ -9,6 +9,7 @@ header{
     height: 60px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    padding-top: 30px ;
 }
 
 nav ul{
@@ -24,6 +25,7 @@ nav ul li{
 #welcome{
     display: flex;
     justify-content: space-around;
+   padding: 0 30px;
 }
 
 .welcome-img{
@@ -36,4 +38,92 @@ header,
 #welcome{
     background-color: #1f2937;
     color: white;
+}
+
+
+.welcome-text{
+    font-family: 'Roboto', sans-serif;
+}
+.welcome-text h3{
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+
+.welcome-text p{
+    font-size: 18px;
+
+}
+
+.welcome-text button{
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 7px 10px;
+    margin-bottom: 15px;
+    background-color: #3882f6;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    width: 150px;
+}
+
+
+#other-info h3{
+    text-align: center;
+    height: 200px;
+}
+
+
+#other-info h3{
+    font-weight: bolder;
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.more-info{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.card{
+    width: 150px;
+    border: 2px solid black;
+    margin: 15px;
+}
+
+#description{
+    background-color: #e5e7eb;
+    height: 100px;
+    margin: auto;
+    padding: 70px;
+    border: 7px solid black;
+}
+
+#description p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.subscrib{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    margin: auto;
+  width: 70%;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 60px 0;
 }
